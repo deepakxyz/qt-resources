@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>snappingMode_Handle_VisualClue_icon_Drag_V2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="snappingMode_Handle_VisualClue_icon_Drag_V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#191919" stroke-width="2" fill="#252525" opacity="0.6" x="1" y="1" width="46" height="46" rx="6"></rect>
+        <g id="Group" transform="translate(9.000000, 11.000000)" stroke="#BF9800" stroke-width="3">
+            <path d="M10.3225806,-3.73034936e-14 L7.62945263e-13,-3.73034936e-14 C7.62945263e-13,17.3559322 7.62945263e-13,26.0338983 7.62945263e-13,26.0338983 C7.62945263e-13,26.0338983 3.44086022,26.0338983 10.3225806,26.0338983" id="Path-19"></path>
+            <path d="M29.9354839,-3.73034936e-14 L19.6129032,-3.73034936e-14 C19.6129032,17.3559322 19.6129032,26.0338983 19.6129032,26.0338983 C19.6129032,26.0338983 23.0537634,26.0338983 29.9354839,26.0338983" id="Path-19" transform="translate(24.774194, 13.016949) scale(-1, 1) translate(-24.774194, -13.016949) "></path>
+        </g>
+    </g>
+</svg>

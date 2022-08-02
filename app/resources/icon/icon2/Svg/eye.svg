@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="/net/homedirs/mfickett/scratch/katana/UI4/Resources/Icons/Svg"
+   sodipodi:docname="eye.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="13.776042"
+     inkscape:cx="43.660340"
+     inkscape:cy="1008.6957"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="722"
+     inkscape:window-height="515"
+     inkscape:window-x="1385"
+     inkscape:window-y="115" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#646464;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.70000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none"
+       d="M 38.037051,39.299045 C 41.956900,39.299045 43.263516,41.404149 44.134594,42.710765 C 43.045747,44.525510 41.231002,47.066152 38.327410,47.066152 C 35.423819,47.066152 32.883176,43.944791 31.794329,42.710765 C 32.810586,41.694508 35.423819,39.371635 38.037051,39.299045 z "
+       id="path1331"
+       inkscape:export-filename="/net/homedirs/mfickett/scratch/katana/UI4/Resources/Icons/eyeOpen.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"
+       sodipodi:nodetypes="ccscc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#404040;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path1333"
+       sodipodi:cx="38.581474"
+       sodipodi:cy="43.037418"
+       sodipodi:rx="2.2139885"
+       sodipodi:ry="2.1413989"
+       d="M 40.795463 43.037418 A 2.2139885 2.1413989 0 1 1  36.367486,43.037418 A 2.2139885 2.1413989 0 1 1  40.795463 43.037418 z"
+       transform="matrix(1.067851,0.000000,0.000000,1.101224,-2.951556,-4.246254)"
+       inkscape:export-filename="/net/homedirs/mfickett/scratch/katana/UI4/Resources/Icons/eyeOpen.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <path
+       style="fill:#3a3a3a;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.70000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none"
+       d="M 54.660113,39.299045 C 58.579962,39.299045 59.813988,41.331559 60.685066,42.638175 C 59.596219,44.452920 57.781474,46.993562 54.877882,46.993562 C 51.974291,46.993562 49.433648,43.872201 48.344801,42.638175 C 49.361058,41.621918 52.046881,39.371635 54.660113,39.299045 z "
+       id="path2083"
+       inkscape:export-filename="/net/homedirs/mfickett/scratch/katana/UI4/Resources/Icons/eyeClosed.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"
+       sodipodi:nodetypes="ccscc" />
+    <path
+       id="path2087"
+       d="M 55.386011,44.017381 C 59.305860,44.017381 59.813988,41.331559 60.685066,42.638175 C 59.596219,44.452920 57.781474,46.993562 54.877882,46.993562 C 51.974291,46.993562 49.433648,43.872201 48.344801,42.638175 C 48.489980,42.275226 51.248393,44.089971 55.386011,44.017381 z "
+       style="fill:#373737;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.70000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none"
+       sodipodi:nodetypes="ccscc"
+       inkscape:export-filename="/net/homedirs/mfickett/scratch/katana/UI4/Resources/Icons/eyeClosed.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+  </g>
+</svg>

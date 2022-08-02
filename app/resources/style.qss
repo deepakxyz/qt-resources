@@ -1,0 +1,63 @@
+body {
+    background-color: #383838;  /* the "Base" color of the widget's palette */
+    color: #B2B2B2;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
+}
+
+body::-webkit-scrollbar, body::-webkit-scrollbar-track
+{
+    background-color: #2f2f2f;  /* darker than the body's background */
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background-color: #454545;  /* brighter than the track's background */
+}
+
+body::-webkit-scrollbar-thumb:hover
+{
+    background-color: #525252;  /* a bit brighter */
+}
+
+body::-webkit-scrollbar-thumb:active
+{
+    background-color: #616161;  /* a bit more brighter */
+}
+
+body::-webkit-scrollbar-corner
+{
+    background-color: #242424;  /* darker than track's background */
+}
+/* QMainWindow */
+
+QMainWindow {
+    background-color: #2e2e2e;
+    color:#b2b29f;
+}
+
+
+/* QMenu  Bar*/
+QMenuBar {
+    background-color: #2e2e2e;
+    color: #b2b29f;
+    spacing:  6px;
+    selection-color: red;
+    padding:4px 8px;
+}
+
+QMenuBar::item{
+    background: transparent;
+    /* padding:2px 10px; */
+}
+
+QMenuBar::item:pressed {
+    background-color: #9d4a4a;
+}
+
+
+
+/* QMenuBar::item:selected {
+    padding: 4px;
+    border: 0px solid #3E3E3E;
+} */
+
