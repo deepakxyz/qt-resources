@@ -13,7 +13,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui = loader.load(ui_path('mainwindow.ui'))
         self.setCentralWidget(self.ui)
 
-        self.setMinimumSize(2200, 1400)
+        # self.setMinimumSize(2200, 1400)
 
 
 if __name__ == "__main__":
