@@ -399,6 +399,13 @@ QScrollBar::sub-line:horizontal {
 
 
 
+
+
+
+
+
+/* VERTICAL */
+
  QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
      background: none;
  }
@@ -457,6 +464,6 @@ Line{
 }
 
 
-QStatusBar{
-    background-color: #252525;
-}
+/* QStatusBar{
+    background-color: #282828;
+} */
