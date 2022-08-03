@@ -13,8 +13,16 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui = loader.load(ui_path('mainwindow.ui'))
         self.setCentralWidget(self.ui)
 
-        # self.setMinimumSize(2200, 1400)
+        self.temp_icon_path = "Z:\\dev\\qt_resources\\app\\resources\\my_icons\\tab_header.png"
 
+        # self.setMinimumSize(2200, 1400)
+        self.widgetAdditional()
+    def widgetAdditional(self):
+        ico = QtGui.QIcon(self.temp_icon_path) 
+        self.ui.tabWidget.setTabIcon(1,ico)
+        self.ui.tabWidget.setTabIcon(0,ico)
+
+        
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
