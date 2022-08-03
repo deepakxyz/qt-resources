@@ -37,10 +37,19 @@ body::-webkit-scrollbar-corner
 *:disabled{
     color:#686868;
 }
+
+QSplitter::handle{
+    
+    background-color: #262626;
+    color:red;
+     image: url(Z:/dev/qt_resources/app/resources/my_icons/dropdown.png);
+}
+
 /* QMainWindow */
 
 QMainWindow {
     background-color: #2e2e2e;
+    background-color: #262626;
     color:#B2b2b2;
 }
 
@@ -341,10 +350,13 @@ QComboBox QAbstractItemView::item{
     padding:10px;
 }
 
+QComboBox:hover{
+    color:#D3D3D3;
+}
 
 
 QComboBox::down-arrow {
-    image: url(/usr/share/icons/crystalsvg/16x16/actions/1downarrow.png);
+     image: url(Z:/dev/qt_resources/app/resources/my_icons/dropdown.png);
 }
 
 QComboBox::down-arrow:on { /* shift the arrow when popup is open */
@@ -363,6 +375,17 @@ QAbstractSpinBox {
     selection-background-color: #4d4d4d;
     padding:6px;
 }
+
+QAbstractSpinBox::down-arrow{
+
+     image: url(Z:/dev/qt_resources/app/resources/my_icons/dropdown.png);
+}
+
+QAbstractSpinBox::up-arrow{
+
+     image: url(Z:/dev/qt_resources/app/resources/my_icons/dropup.png);
+}
+
 
 
 
@@ -426,22 +449,6 @@ QRadioButton::indicator::checked {
     image: url(Z:/dev/qt_resources/app/resources/my_icons/radio_btn_selected.png);
 }
 
-/* 
-
-QRadioButton::indicator:unchecked:pressed {
-    image: url(:/images/radiobutton_unchecked_pressed.png);
-}
-
-
-QRadioButton::indicator:checked:hover {
-    image: url(:/images/radiobutton_checked_hover.png);
-}
-
-QRadioButton::indicator:checked:pressed {
-    image: url(:/images/radiobutton_checked_pressed.png);
-} */
-
-
 /* GROUPBOX */
 QGroupBox {
     border-radius: 1px;
@@ -469,7 +476,6 @@ QGroupBox::indicator:checked{
 QGroupBox::title {
     subcontrol-origin: margin;
     padding: 0 3px;
-    background-color: transparent;
     background-color: #282828;
     border: 1px dotted #404040;
     color:#b2b2b2;
@@ -482,8 +488,40 @@ QGroupBox::title:hover{
 
 
 
+/* Plain Text Edit */
+/* ----------------------------------------------------------- */
+QPlainTextEdit{
+    background-color: #292929;
+    border: 1px solid #404040;
+    color:#b2b2b2;
+}
+
+/* TEXTBROWSER */
+/* ----------------------------------------------------------- */
+QTextEdit{
+    background-color: #292929;
+    border: 1px solid #404040;
+    color:#b2b2b2;
+}
+
+
+/* TEXTBROWSER */
+/* ----------------------------------------------------------- */
+QTextBrowser{
+    background-color: #383838;
+    border: 1px solid #404040;
+    letter-spacing: 2px;
+    line-height: 1px;
+
+}
+
+
+
+
+
 /* SCROLLBAR */
 /* ----------------------------------------------------------- */
+
 
 
 
@@ -515,6 +553,26 @@ QScrollBar::sub-line:horizontal {
     subcontrol-origin: margin;
 }
 
+
+QScrollBar:vertical{
+    border: 1px solid #404040;
+    background-color: #262626;
+}
+
+QScrollBar::add-line:vertical {
+    border: 1px solid #404040;
+    background: #2e2e2e;
+}
+QScrollBar::sub-line:vertical {
+    border: 1px solid #404040;
+    background: #2e2e2e;
+}
+
+
+/* SCROLLAREA */
+/* QScrollArea{
+    background: #2e2e2e;
+} */
 
 
 
