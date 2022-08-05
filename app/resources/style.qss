@@ -573,13 +573,6 @@ QScrollBar::sub-line:vertical {
 }
 
 
-/* SCROLLAREA */
-/* QScrollArea{
-    background: #2e2e2e;
-} */
-
-
-
 
 
 
@@ -605,8 +598,6 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
 
 
 
-
-
 /* QTabWidget */
 /* ---------------------------------------------------- */
 
@@ -624,7 +615,7 @@ QTabBar::tab {
 } 
 
 QTabBar::tab:selected { 
-  background:#4d4d4d;
+  background:#2e2e2e;
   margin-bottom: -1px; 
     color:rgb(230, 230, 230);
 }
@@ -636,9 +627,13 @@ QTabWidget::top:pane {
 
 
 
-QFrame#line{
-    /* border: 0.3px solid #404040; */
-    
-    background: #404040;
 
+
+
+QWidget#tab_2{
+    background-color: red;
+}
+
+QWidget#tab_2_scroll{
+    background-color: #2E2E2E;
 }

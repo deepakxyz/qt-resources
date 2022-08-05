@@ -3,6 +3,7 @@ from PySide2.QtWidgets import QApplication
 import sys
 from utils import resource_path, ui_path
 # import CodeEditor
+from widgets import FlowLayout, PublishWidget
 
 class MainWindow(QtWidgets.QMainWindow):
 
@@ -19,6 +20,7 @@ class MainWindow(QtWidgets.QMainWindow):
         # self.setMinimumSize(2200, 1400)
         self.widgetAdditional()
         self.add_collapasable()
+        self.add_flow_layout_tab()
 
     def widgetAdditional(self):
         ico = QtGui.QIcon(self.temp_icon_path) 
@@ -104,6 +106,16 @@ class MainWindow(QtWidgets.QMainWindow):
 
         self.c_w_2.add_layout(self.formLayout)
 
+    # FLOW LAYOUT
+    def add_flow_layout_tab(self):
+        self.flow_layout = FlowLayout.FlowLayout(self.ui.tab_2_scroll)
+
+        self.flow_layout.addWidget(PublishWidget.PublishWidget('char_greyman_body_lod100_mdl'))
+        self.flow_layout.addWidget(PublishWidget.PublishWidget('char_greyman_body_lod100_mdl'))
+        self.flow_layout.addWidget(PublishWidget.PublishWidget('char_greyman_body_lod100_mdl'))
+        self.flow_layout.addWidget(PublishWidget.PublishWidget('char_greyman_body_lod100_mdl'))
+        self.flow_layout.addWidget(PublishWidget.PublishWidget('char_greyman_body_lod100_mdl'))
+       
 
 
 
@@ -162,6 +174,7 @@ class CollapsibleHeader(QtWidgets.QWidget):
         self.setStyleSheet("""
         QWidget { 
             background:#383838;
+            
         }
         """)
 
@@ -185,6 +198,7 @@ class CollapsibleHeader(QtWidgets.QWidget):
 class CollapsibleWidget(QtWidgets.QWidget):
     def __init__(self, text, parent=None):
         super(CollapsibleWidget, self).__init__(parent)
+
 
         self.header_wgt = CollapsibleHeader(text)
         self.header_wgt.clicked.connect(self.on_header_clicked)
