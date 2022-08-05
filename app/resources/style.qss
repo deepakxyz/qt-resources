@@ -395,6 +395,10 @@ QCheckBox{
     color:#b2b2b2;
 }
 
+QCheckBox:hover{
+    color:#D3D3D3;
+}
+
 
 QCheckBox::indicator{
     width:30px;
